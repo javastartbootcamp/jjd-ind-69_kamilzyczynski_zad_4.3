@@ -14,4 +14,8 @@ public class Circle {
     public void setR(double r) {
         this.r = r;
     }
+
+    public double calculateCircleArea() {
+        return 3.14 * Math.pow(r, 2);
+    }
 }
